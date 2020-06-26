@@ -5,17 +5,22 @@
 Google Colab, Runtime : TPU<br>
 <br>
 
-## Requirement 
-1) KorBert(ETRI), src_tokenizer.py(ETRI), vocab.korean_morp.list(ETRI) (downloaded http://aiopen.etri.re.kr/aidata_download.php<br>
+## Requirement
 
-2) ETRI API AccessKey (issued http://aiopen.etri.re.kr/)<br>
+1) pytorch_model.bin(ETRI), src_tokenizer.py(ETRI), vocab.korean_morp.list(ETRI) (download here http://aiopen.etri.re.kr/aidata_download.php<br>
+
+2) ETRI API AccessKey (get here http://aiopen.etri.re.kr/)<br>
+
+3) Kaggle Dataset(https://www.kaggle.com/c/cose461k)
 <br>
 
-## filepath setiing
+## Filepath setting
 
-1) nlp_path : folder which contains 'KoBERT_usingTPU_binary.ipynb', KorBERT config file('bert_config.json'), src_tokenizer which contains 'src_tokenizer.py' and kaggle dataset<br>
+1) nlp_path : folder which contains 'KoBERT_usingTPU_binary.ipynb', KorBERT config file('bert_config.json'), model(pytorch_model.bin), src_tokenizer folder which contains 'src_tokenizer.py' and kaggle dataset<br>
 
 2) ckpt_path : the path to ETRI's 'pytorch_model.bin'<br>
+
+3) Kaggle Dataset(ko_data.csv, ko_sample.csv) shoud be saved in your nlp_path
 <br>                  
 <br>              
 
