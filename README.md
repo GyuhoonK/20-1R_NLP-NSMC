@@ -42,4 +42,10 @@ Google Colab, Runtime : TPU<br>
         return output
 
 
+## SorceCode Refence
 
+1) BertForSequenceClassification <br>
+https://huggingface.co/transformers/_modules/transformers/modeling_bert.html#BertForSequenceClassification
+
+2) TPU Setting<br>
+https://github.com/GoogleCloudPlatform/training-data-analyst/issues/678
