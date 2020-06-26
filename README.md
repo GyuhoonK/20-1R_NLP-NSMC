@@ -1,7 +1,7 @@
 # NLP-NSMC
 2020-1R Natural Language Processoogle 
 
-Environment : Google Colab, Runtime : TPU
+Environment : Google Colab, Runtime : TPU<br>
 Requirement : KorBert(ETRI), src_tokenizer(ETRI) (downloaded http://aiopen.etri.re.kr/aidata_download.php
               ETRI API AccessKey (issued http://aiopen.etri.re.kr/)
 
