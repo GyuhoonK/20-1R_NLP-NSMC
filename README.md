@@ -7,7 +7,7 @@ Google Colab, Runtime : TPU<br>
 
 ## Requirement
 
-1) pytorch_model.bin(ETRI), src_tokenizer.py(ETRI), vocab.korean_morp.list(ETRI) (download here http://aiopen.etri.re.kr/aidata_download.php<br>
+1) `pytorch_model.bin`(ETRI),` src_tokenizer.py`(ETRI), `vocab.korean_morp.list`(ETRI) (download here http://aiopen.etri.re.kr/aidata_download.php<br>
 
 2) ETRI API AccessKey (get here http://aiopen.etri.re.kr/)<br>
 
@@ -16,15 +16,15 @@ Google Colab, Runtime : TPU<br>
 
 ## Filepath setting
 
-1) nlp_path : folder which contains 'KoBERT_usingTPU_binary.ipynb', KorBERT config file('bert_config.json'), model(pytorch_model.bin), src_tokenizer folder which contains 'src_tokenizer.py' and kaggle dataset<br>
+1) `nlp_path` : folder which contains '`KoBERT_usingTPU_binary.ipynb`', KorBERT config file('`bert_config.json`'), model(`pytorch_model.bin`), `src_tokenizer` folder which contains '`src_tokenizer.py`' and kaggle dataset<br>
 
-2) ckpt_path : the path to ETRI's 'pytorch_model.bin'<br>
+2) `ckpt_path` : the path to ETRI's '`pytorch_model.bin`'<br>
 
-3) Kaggle Dataset(ko_data.csv, ko_sample.csv) shoud be saved in your nlp_path
+3) Kaggle Dataset(`ko_data.csv`, `ko_sample.csv`) shoud be saved in your `nlp_path`
 <br>                  
 <br>              
 
-## *modify these two function to the codes below in src_tokenizer.py<br>*
+## *modify these two functions to the codes below in `src_tokenizer.py`<br>*
 
     def load_vocab(vocab_file) : 
         ~
@@ -42,7 +42,7 @@ Google Colab, Runtime : TPU<br>
         return output
 
 
-## SourceCode Refence
+## SourceCode Reference
 
 1) BertForSequenceClassification <br>
 https://huggingface.co/transformers/_modules/transformers/modeling_bert.html#BertForSequenceClassification
